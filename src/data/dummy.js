@@ -81,51 +81,43 @@ const gridEmployeeCountry = (props) => (
 export const EditorData = () => (
   <div>
     <h3>
-      Try React
-      React has been designed from the start for gradual adoption, and you can use as little or as much React as you need. Whether you want to get a taste of React, add some interactivity to a simple HTML page, or start a complex React-powered app, the links in this section will help you get started.
+      Welcome to CyberSentinal
+      CyberSentinal is your one-stop solution for monitoring vulnerabilities in OEM software, hardware, and firmware.
+      Our advanced web-scraping tool ensures that every vulnerability is detected and stored in a secure database for easy access and review.
 
-      Online Playgrounds
-      If you’re interested in playing around with React, you can use an online code playground. Try a Hello World template on CodePen, CodeSandbox, or Stackblitz.
+      Vulnerability Database
+      Each vulnerability is tracked with a detailed historical record that includes:
+      - Vulnerability description
+      - Severity level (Critical, High, Moderate)
+      - Affected product or service
+      - Links to official advisories or patches
+      - Date of discovery or reporting
 
-      If you prefer to use your own text editor, you can also download this HTML file, edit it, and open it from the local filesystem in your browser. It does a slow runtime code transformation, so we’d only recommend using this for simple demos.
+      Data Security
+      CyberSentinal uses advanced encryption techniques to ensure that your vulnerability reports and product information are safely stored. Unauthorized access is prevented by a robust security architecture.
 
-      Add React to a Website
-      You can add React to an HTML page in one minute. You can then either gradually expand its presence, or keep it contained to a few dynamic widgets.
+      Automated Alerts and Notifications
+      Our platform provides real-time automated alerts for any new vulnerabilities discovered, along with email alerts that include:
+      - Detailed description of the vulnerability
+      - Severity rating and recommended actions
+      - Links to patches and advisories
 
-      Create a New React App
-      When starting a React project, a simple HTML page with script tags might still be the best option. It only takes a minute to set up!
+      Customizable Reports
+      You can generate detailed reports with insights into the vulnerabilities affecting your products. These reports are ideal for internal security reviews or to be shared with your management team for strategic decision-making.
 
-      As your application grows, you might want to consider a more integrated setup. There are several JavaScript toolchains we recommend for larger applications. Each of them can work with little to no configuration and lets you take full advantage of the rich React ecosystem. Learn how.
-
-      Learn React
-      People come to React from different backgrounds and with different learning styles. Whether you prefer a more theoretical or a practical approach, we hope you’ll find this section helpful.
-
-      If you prefer to learn by doing, start with our practical tutorial.
-      If you prefer to learn concepts step by step, start with our guide to main concepts.
-      Like any unfamiliar technology, React does have a learning curve. With practice and some patience, you will get the hang of it.
-
-      First Examples
-      The React homepage contains a few small React examples with a live editor. Even if you don’t know anything about React yet, try changing their code and see how it affects the result.
-
-      React for Beginners
-      If you feel that the React documentation goes at a faster pace than you’re comfortable with, check out this overview of React by Tania Rascia. It introduces the most important React concepts in a detailed, beginner-friendly way. Once you’re done, give the documentation another try!
-
-      React for Designers
-      If you’re coming from a design background, these resources are a great place to get started.
-
-      JavaScript Resources
-      The React documentation assumes some familiarity with programming in the JavaScript language. You don’t have to be an expert, but it’s harder to learn both React and JavaScript at the same time.
-
-      We recommend going through this JavaScript overview to check your knowledge level. It will take you between 30 minutes and an hour but you will feel more confident learning React.
+      Long-term Risk Mitigation
+      As technology evolves, so does CyberSentinal. Our platform is designed to adapt and grow with emerging technologies, ensuring long-term risk mitigation for your organization.
     </h3>
   </div>
 );
+
+// Customer Grid Component
 const customerGridImage = (props) => (
   <div className="image flex gap-4">
     <img
       className="rounded-full w-10 h-10"
       src={props.CustomerImage}
-      alt="employee"
+      alt="customer"
     />
     <div>
       <p>{props.CustomerName}</p>
@@ -140,6 +132,7 @@ const customerGridStatus = (props) => (
     <p>{props.Status}</p>
   </div>
 );
+
 export const areaPrimaryXAxis = {
   valueType: 'DateTime',
   labelFormat: 'y',
