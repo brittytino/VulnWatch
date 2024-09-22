@@ -467,7 +467,7 @@ export const links = [
     title: 'Dashboard',
     links: [
       {
-        name: 'ecommerce',
+        name: 'Admin Panel',
         icon: <FiShoppingBag />,
       },
     ],
@@ -481,11 +481,11 @@ export const links = [
         icon: <AiOutlineShoppingCart />,
       },
       {
-        name: 'employees',
+        name: 'OEM Names',
         icon: <IoMdContacts />,
       },
       {
-        name: 'customers',
+        name: 'Products',
         icon: <RiContactsLine />,
       },
     ],
@@ -498,7 +498,7 @@ export const links = [
         icon: <AiOutlineCalendar />,
       },
       {
-        name: 'kanban',
+        name: 'To-do',
         icon: <BsKanban />,
       },
       {
